@@ -191,7 +191,7 @@ export default function Page() {
 
   async function handleSubmit(){
     if(!WEBHOOK_URL){ setSubmitted(true); return; }
-    setSubmitting(True);
+    setSubmitting(true);
     try{
       await fetch(WEBHOOK_URL, {
         method: "POST",
