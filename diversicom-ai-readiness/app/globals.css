@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media print {
+  .print\:hidden { display: none !important; }
+  .print\:p-0 { padding: 0 !important; }
+  body { background: #fff !important; }
+}
